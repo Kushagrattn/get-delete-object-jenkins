@@ -6,10 +6,12 @@
             "Effect": "Allow",
             "Principal": "*",
             "Action": [
-                "s3:GetObject"
+                "s3:GetObject",
+                "s3:DeleteBucket",
+				"s3:DeleteBucketWebsite"
             ],
             "Resource": [
-                "arn:aws:s3:::mystaticbucketjenkins/*"
+                "arn:aws:s3:::getdeletebucket/*"
             ]
         }
     ]
