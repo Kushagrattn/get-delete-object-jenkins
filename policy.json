@@ -7,8 +7,7 @@
             "Principal": "*",
             "Action": [
                 "s3:GetObject",
-                "s3:DeleteBucket",
-		"s3:DeleteBucketWebsite"
+                "s3:DeleteBucket"
             ],
             "Resource": [
                 "arn:aws:s3:::getdeletebucket/*"
